@@ -3,6 +3,8 @@ import subprocess as sp
 #validates the users guess
 def guess_validation(user_input):
   valid_letters = ['a','b','c','d','e','f']
+  if len(user_input) != 4:
+    return False
   for letter in user_input:
     if letter not in valid_letters:
       return False
