@@ -16,3 +16,4 @@ After several rounds of guessing you should be honing in on the correct code, an
 The game is written in python, so to play simply navigate to the mastermind directory and run the following command:
 >python mastermind.py
 
+If you are using python 3.x.x the game can be run by changing raw_input to input and surrounding the print statement of win_message to be surrounded by () inside helpers.py
