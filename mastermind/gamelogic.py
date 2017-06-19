@@ -14,7 +14,7 @@ def game_loop():
       win_message(computer_logic.get_guess_count())
       break
     else:
-      print ("\nYour hint is: " + str(hint))
+      print ("Your hint is: " + str(hint))
       
       
       

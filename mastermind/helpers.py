@@ -20,7 +20,7 @@ def greeting():
 #takes in and validates the user guess
 def user_guess():
   while(True):
-    user_guess = raw_input("Enter in your code: ")
+    user_guess = raw_input("\nEnter in your code: ")
     if guess_validation(user_guess):
       return user_guess
     else:
